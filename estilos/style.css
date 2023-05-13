@@ -1,5 +1,9 @@
  @charset "UTF-8";
 
+ /*rgba(211, 89, 8, 0.747)
+ rgba(235, 134, 87, 0.349), rgba(250, 86, 10, 0.466)
+ */
+
  * {
     margin: 0px;
     padding: 0px;
@@ -12,52 +16,6 @@
     width: 100vw;
     height: 100vh;
  }
-
- main {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
- }
-
- #login {
-    background-color: white;
-    width: 300px;
-    height: 520px;
-    border-radius: 15px;
-    overflow:hidden;
-    box-shadow: 3px 3px 5px rgba(14, 14, 14, 0.192);
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: width 0.3s, height 0.3s;
-    transition-timing-function: ease;
- }
-
- #imagem {
-    display: block;
-    height: 220px;
-    background: rgb(155, 151, 151) url(../imagens/pexels-dinnow-9444476.jpg) no-repeat center top;
-    background-size: cover;  
-
- }
-
- #formulario {
-    display: block;
-    padding: 10px;
-    margin-bottom: 10px;
- }
-
- #formulario > h1 {
-    text-align: center;
-    font-size: 1.8em;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.144);
- }
-
- #formulario > p {
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.062);
-    font-size: 1.3em;
- }
+ 
 
  

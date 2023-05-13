@@ -4,21 +4,7 @@
     body {
         background-image: linear-gradient(to bottom, rgba(235, 134, 87, 0.349), rgba(250, 86, 10, 0.466));
     }
-
-    #login {
-        width: 85%;
-        height: 400px;
-    }
-    #imagem {
-        width: 30%;
-        height: 100%;
-        float: left;
-    } 
-
-    #formulario{ 
-        padding: 30px;
-        float: right;
-    }
+   
 
  }
 
@@ -27,19 +13,7 @@
         background-image: linear-gradient(to bottom, rgba(235, 134, 87, 0.349), rgba(250, 86, 10, 0.466));
     }
 
-    #login {
-        width: 950px;
-        height: 400px;
-    }
-
-    #imagem {
-        float:right;
-        width: 50%;
-        height: 100%;
-    }
-
-    #formulario> h1 {
-        padding-top: 25px;
-    }
+   
+   
  }
 
