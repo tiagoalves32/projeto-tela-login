@@ -16,6 +16,61 @@
     width: 100vw;
     height: 100vh;
  }
+
+ main {
+    position:relative;
+    width: 100vw;
+    height: 100vh
+ }
+
+ section#login { 
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%; 
+    width: 300px;
+    height: 520px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.267);
+    transform:translate(-50%, -50%);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+ }
+
+ section#login > div#imagem {
+    display: block;
+    background: black url(../imagens/pexels-dinnow-9444476.jpg) no-repeat;
+    background-size: cover;
+    height: 250px;
+ }
+
+ section#login > div#formulario {
+    display: block;
+    padding: 15px;
+ }
+
+ section#login > div#formulario > h1 {
+    font-size: 1.8em;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.164);
+    margin-bottom: 20px;
+ }
+
+ section#login > div#formulario > p {
+
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.096);
+    font-size: 1.2em;
+ }
+
+ div.campo > label {
+    display:none;
+ }
+
+
+
+
+
  
 
  
